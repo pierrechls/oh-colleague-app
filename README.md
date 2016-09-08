@@ -1,6 +1,6 @@
 # oh-colleague-app
 
-> An app to learn how to be a an inhabitant from the south of France ☀️😎
+> An app to learn how to be an inhabitant from the south of France ☀️😎
 
 
 ## Prior installation
