@@ -1,31 +1,14 @@
 <template>
   <div id="app">
-    <menu></menu>
-    <p>
-      Welcome to neodymium!
-    </p>
-    <p>
-      To get a better understanding of how this works, check out
-      <a href="http://soixantecircuits.github.io/nd" target="_blank">its documentation</a>.
-      It is also recommended to go through the docs for
-      <a href="http://webpack.github.io/" target="_blank">Webpack</a> and
-      <a href="http://vuejs.github.io/vue-loader/" target="_blank">vue-loader</a>.
-      If you have any issues with the setup, please file an issue at this boilerplate's
-      <a href="https://github.com/soixantecircuits/nd" target="_blank">repository</a>.
-    </p>
     <router-view transition="default"></router-view>
   </div>
 </template>
 
 <script>
 import store from './vuex/store'
-import Menu from './components/Menu.vue'
 
 export default {
   name: 'App',
-  components: {
-    Menu
-  },
   route: {
     data: function (transition) {
       // console.log('App.vue - transition from %s to %s', transition.from.name, transition.to.name)

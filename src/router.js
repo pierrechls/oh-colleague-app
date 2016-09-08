@@ -16,7 +16,7 @@ router.map({
     name: 'App',
     component: App,
     subRoutes: {
-      '/foo': {
+      '/home': {
         name: 'Foo',
         component: Foo
       },
