@@ -40,10 +40,17 @@ export default {
     position: relative;
     text-align: center;
 
-    #app a {
-      color: #42b983;
+    a {
+      color: $green;
       text-decoration: none;
     }
+
+    h1{
+      font-size: 4em;
+      text-transform: uppercase;
+      color: $green;
+    }
+
   }
 
 </style>

@@ -7,19 +7,19 @@
     </div>
     <div class="menu">
       <div v-link="'/appelation'" class="item top left">
-        <h1>L'appélation</h1>
+        <h2>L'appélation</h2>
         <p>Définition du mot collègue</p>
       </div>
       <div v-link="'/vocabulaire'" class="item bottom left">
-        <h1>Le vocabulaire</h1>
+        <h2>Le vocabulaire</h2>
         <p>Mots et expressions</p>
       </div>
       <div v-link="'/vision'" class="item top right">
-        <h1>La vision</h1>
+        <h2>La vision</h2>
         <p>Comment le sudiste voit les autres</p>
       </div>
       <div v-link="'/musique'" class="item bottom right">
-        <h1>La musique</h1>
+        <h2>La musique</h2>
         <p>Les musiques favorites du sudiste</p>
       </div>
     </div>
@@ -70,8 +70,9 @@
         color: $white;
         position: absolute;
 
-        h1{
+        h2{
           text-transform: uppercase;
+          font-size: 2em;
         }
 
         p{
