@@ -6,19 +6,19 @@
       <img src="~../assets/images/pedro.png" />
     </div>
     <div class="menu">
-      <div class="item top left">
+      <div v-link="'/appelation'" class="item top left">
         <h1>L'appélation</h1>
         <p>Définition du mot collègue</p>
       </div>
-      <div class="item bottom left">
+      <div v-link="'/vocabulaire'" class="item bottom left">
         <h1>Le vocabulaire</h1>
         <p>Mots et expressions</p>
       </div>
-      <div class="item top right">
+      <div v-link="'/vision'" class="item top right">
         <h1>La vision</h1>
         <p>Comment le sudiste voit les autres</p>
       </div>
-      <div class="item bottom right">
+      <div v-link="'/musique'" class="item bottom right">
         <h1>La musique</h1>
         <p>Les musiques favorites du sudiste</p>
       </div>

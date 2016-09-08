@@ -1,5 +1,5 @@
 <template>
-  <div class="bar">
+  <div class="appelation-view">
     <h1>Bar</h1>
     <p>{{ count }}</p>
     <button @click='decrementCounter'>-</button>
@@ -12,7 +12,7 @@ import { decrementCounter, incrementCounter } from '../vuex/actions'
 import { getCount } from '../vuex/getters'
 
 export default {
-  name: 'Bar',
+  name: 'Appelation',
   vuex: {
     getters: {
       count: getCount

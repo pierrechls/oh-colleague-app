@@ -1,7 +1,10 @@
 import Vue from 'vue'
 import App from './App'
 import Home from 'components/Home'
-import Bar from 'components/Bar'
+import Appelation from 'components/Appelation'
+import Vocabulaire from 'components/Vocabulaire'
+import Vision from 'components/Vision'
+import Musique from 'components/Musique'
 import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
@@ -20,9 +23,21 @@ router.map({
         name: 'Home',
         component: Home
       },
-      '/bar': {
-        name: 'Bar',
-        component: Bar
+      '/appelation': {
+        name: 'Appelation',
+        component: Appelation
+      },
+      '/vocabulaire': {
+        name: 'Vocabulaire',
+        component: Vocabulaire
+      },
+      '/vision': {
+        name: 'Vision',
+        component: Vision
+      },
+      '/musique': {
+        name: 'Musique',
+        component: Musique
       }
     }
   }
