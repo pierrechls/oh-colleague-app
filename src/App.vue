@@ -34,6 +34,8 @@ export default {
 
   #app {
     width: 100%;
+    height: 100%;
+    overflow: hidden;
     font-family: 'Gotham', Source Sans Pro, Helvetica, sans-serif;
     position: relative;
     text-align: center;
