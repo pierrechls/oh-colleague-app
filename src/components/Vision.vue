@@ -1,33 +1,35 @@
 <template>
   <div class="vision-view">
-    <h1>vision</h1>
-    <p>{{ count }}</p>
-    <button @click='decrementCounter'>-</button>
-    <button @click='incrementCounter'>+</button>
+    <h1>La vision</h1>
+    <p>Fada on se pèle chez vous !</p>
+    <img src="~../assets/images/france.png" />
   </div>
 </template>
 
 <script>
-import { decrementCounter, incrementCounter } from '../vuex/actions'
-import { getCount } from '../vuex/getters'
 
-export default {
-  name: 'Vision',
-  vuex: {
-    getters: {
-      count: getCount
-    },
-    actions: {
-      decrementCounter,
-      incrementCounter
-    }
+  export default {
+    name: 'Vision'
   }
-}
+
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1 {
-  color: #42b983;
-}
+<style lang="scss" scoped>
+
+  @import "~assets/styles/variables";
+
+  .vision-view{
+
+    p{
+      font-size: 2em;
+    }
+
+    img{
+      height: 800px;
+      width: auto;
+      margin: 0 50px 0 auto;
+    }
+
+  }
+
 </style>

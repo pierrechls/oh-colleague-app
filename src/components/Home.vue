@@ -16,7 +16,7 @@
       </div>
       <div v-link="'/vision'" class="item top right">
         <h2>La vision</h2>
-        <p>Comment le sudiste voit les autres</p>
+        <p>La France vue pas un sudiste</p>
       </div>
       <div v-link="'/musique'" class="item bottom right">
         <h2>La musique</h2>

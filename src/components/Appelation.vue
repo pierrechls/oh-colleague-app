@@ -1,6 +1,6 @@
 <template>
   <div class="appelation-view">
-      <h1>Appelation</h1>
+      <h1>L'appelation</h1>
       <h4>Source : Dictionnaire Larousse</h3>
       <div class="quote">
         <p>Personne qui remplit la même fonction publique, civile ou militaire qu'une autre.</p>
