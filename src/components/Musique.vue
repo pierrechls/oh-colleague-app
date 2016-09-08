@@ -1,33 +1,23 @@
 <template>
   <div class="musique-view">
     <h1>Musique</h1>
-    <p>{{ count }}</p>
-    <button @click='decrementCounter'>-</button>
-    <button @click='incrementCounter'>+</button>
   </div>
 </template>
 
 <script>
-import { decrementCounter, incrementCounter } from '../vuex/actions'
-import { getCount } from '../vuex/getters'
 
-export default {
-  name: 'Musique',
-  vuex: {
-    getters: {
-      count: getCount
-    },
-    actions: {
-      decrementCounter,
-      incrementCounter
-    }
+  export default {
+    name: 'Musique'
   }
-}
+
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1 {
-  color: #42b983;
-}
+<style lang="scss" scoped>
+
+  @import "~assets/styles/variables";
+
+  h1 {
+    color: #42b983;
+  }
+
 </style>

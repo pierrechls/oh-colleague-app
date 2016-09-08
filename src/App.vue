@@ -18,11 +18,6 @@
     computed: {
       isHome: function () { return ['', '/', '/home'].indexOf(this.$route.path) !== -1 }
     },
-    route: {
-      data: function (transition) {
-        // console.log('App.vue - transition from %s to %s', transition.from.name, transition.to.name)
-      }
-    },
     store
   }
 
