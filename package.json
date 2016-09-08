@@ -1,8 +1,8 @@
 {
   "name": "oh-colleague-app",
   "version": "1.0.0",
-  "description": "A Neodymium project",
-  "author": "Pierre Charles <pierre@soixantecircuits.fr>",
+  "description": "An app to learn how to be a an inhabitant from the south of France ",
+  "author": "Pierre Charles",
   "private": true,
   "scripts": {
     "start": "npm run dev",

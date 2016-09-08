@@ -3,28 +3,46 @@
 > An app to learn how to be a an inhabitant from the south of France ☀️😎
 
 
-## Build Setup
+## Prior installation
 
-``` bash
-# install dependencies
+* You have to install [NodeJS](http://nodejs.org)
+* You have to install [Electron](http://electron.atom.io/)
+
+## How to use it
+
+#### install dependencies
+
+```
 npm install
+```
 
-# serve with hot reload at localhost:8080
-`npm run dev`
+#### serve with hot reload
 
-# launch electron and open a window
-# you must have run the `npm run dev` command in an other terminal window
+```
+npm run dev
+```
+
+
+#### launch electron (*you must have run the `npm run dev` command in an other terminal window*)
+
+```
 npm run electron
+```
 
-# build for production with minifications and package the app.
+## Build the app
+
+```
 npm run build
 npm run build:darwin
 npm run build:linux
 npm run build:win32
 npm run build:all # All platforms, all architectures
 npm run build:no-package # Standalone build
+```
 
-# package a portable binary for a specific platform from the available build.
+## Package the app
+
+```
 npm run package # package for you current platform
 npm run package:darwin
 npm run package:linux
