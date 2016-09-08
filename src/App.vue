@@ -18,40 +18,30 @@ export default {
 }
 </script>
 
-<style>
-html {
-  height: 100%;
-}
+<style lang="scss">
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
+  @import "assets/styles/fonts";
+  @import "assets/styles/variables";
 
-#app {
-  color: #2c3e50;
-  margin-top: -100px;
-  max-width: 600px;
-  font-family: Source Sans Pro, Helvetica, sans-serif;
-  text-align: center;
-  position: relative;
-}
+  html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-#app a {
-  color: #42b983;
-  text-decoration: none;
-}
+  #app {
+    width: 100%;
+    font-family: 'Gotham', Source Sans Pro, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
 
-#app > div {
-  background: #EEE;
-  position: absolute;
-  width: 100%;
-}
+    #app a {
+      color: #42b983;
+      text-decoration: none;
+    }
+  }
 
-.logo {
-  width: 100px;
-  height: 100px
-}
 </style>

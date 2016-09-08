@@ -8,26 +8,30 @@
 </template>
 
 <script>
-import { decrementCounter, incrementCounter } from '../vuex/actions'
-import { getCount } from '../vuex/getters'
 
-export default {
-  name: 'Home',
-  vuex: {
-    getters: {
-      count: getCount
-    },
-    actions: {
-      decrementCounter,
-      incrementCounter
+  import { decrementCounter, incrementCounter } from '../vuex/actions'
+  import { getCount } from '../vuex/getters'
+
+  export default {
+    name: 'Home',
+    vuex: {
+      getters: {
+        count: getCount
+      },
+      actions: {
+        decrementCounter,
+        incrementCounter
+      }
     }
   }
-}
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" scoped>
-h1 {
-  color: #42b983;
-}
+<style lang="scss">
+
+  h1{
+    color: red;
+  }
+
 </style>
