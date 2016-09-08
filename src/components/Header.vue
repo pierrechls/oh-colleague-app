@@ -7,7 +7,7 @@
 <script>
 
   export default {
-    name: 'Vocabulaire'
+    name: 'Header'
   }
 
 </script>
@@ -24,7 +24,7 @@
     top: 0;
     width: 300px;
     height: 100px;
-    padding-top: 40px;
+    padding-top: 30px;
 
     p{
       color: $black;
