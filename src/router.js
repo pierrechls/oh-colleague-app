@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App'
-import Foo from './components/Foo'
-import Bar from './components/Bar'
+import Home from 'components/Home'
+import Bar from 'components/Bar'
 import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
@@ -17,8 +17,8 @@ router.map({
     component: App,
     subRoutes: {
       '/home': {
-        name: 'Foo',
-        component: Foo
+        name: 'Home',
+        component: Home
       },
       '/bar': {
         name: 'Bar',
