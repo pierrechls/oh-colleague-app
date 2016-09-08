@@ -1,21 +1,31 @@
 <template>
   <div id="app">
-    <router-view transition="default"></router-view>
+    <app-header v-if="!isHome"></app-header>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import store from './vuex/store'
 
-export default {
-  name: 'App',
-  route: {
-    data: function (transition) {
-      // console.log('App.vue - transition from %s to %s', transition.from.name, transition.to.name)
-    }
-  },
-  store
-}
+  import store from './vuex/store'
+  import AppHeader from 'components/Header'
+
+  export default {
+    name: 'App',
+    components: {
+      AppHeader
+    },
+    computed: {
+      isHome: function () { return ['', '/', '/home'].indexOf(this.$route.path) !== -1 }
+    },
+    route: {
+      data: function (transition) {
+        // console.log('App.vue - transition from %s to %s', transition.from.name, transition.to.name)
+      }
+    },
+    store
+  }
+
 </script>
 
 <style lang="scss">

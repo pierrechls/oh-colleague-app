@@ -42,6 +42,7 @@
   .home-view{
 
     .title{
+
       h1{
         font-size: 4em;
         text-transform: uppercase;
