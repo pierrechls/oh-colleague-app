@@ -42,10 +42,9 @@
       text-transform: uppercase;
 
       &:before {
-        font-family: 'Glyphicons Halflings';
         top: 2px;
         right: 125px;
-        content: "\e091";
+        content: "<";
         padding-right: 30px;
       }
     }
