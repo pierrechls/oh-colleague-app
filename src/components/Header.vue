@@ -16,7 +16,16 @@
 <style lang="scss" scoped>
 
   @import "~assets/styles/variables";
-  @import "~assets/styles/fonts";
+
+  @font-face {
+  	font-family: 'Glyphicons Halflings';
+    src: url('~../assets/fonts/glyphicons/glyphicons-halflings-regular.eot');
+    src: url('~../assets/fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+         url('~../assets/fonts/glyphicons/glyphicons-halflings-regular.woff2') format('woff2'),
+         url('~../assets/fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'),
+         url('~../assets/fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'),
+         url('~../assets/fonts/glyphicons/glyphicons-halflings-regular.svg#@{icon-font-svg-id}') format('svg');
+  }
 
   #header{
     position: absolute;
