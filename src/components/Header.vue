@@ -16,6 +16,7 @@
 <style lang="scss" scoped>
 
   @import "~assets/styles/variables";
+  @import "~assets/styles/fonts";
 
   #header{
     position: absolute;
